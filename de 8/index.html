@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football - Tin tức bóng đá</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="trang-chu">
+    <div class="brand"><a href="#trang-chu" aria-label="Football trang chủ"><img src="image/logon.png" alt="Football"></a></div>
+    <nav class="main-nav" aria-label="Menu chính">
+      <a href="#trang-chu">TRANG CHỦ</a>
+      <a href="#lich-thi-dau">LỊCH THI ĐẤU</a>
+      <a href="#live">LIVE</a>
+      <a href="#ket-qua">KẾT QUẢ</a>
+      <a href="#binh-luan">BÌNH LUẬN</a>
+      <button class="menu-toggle" type="button" aria-label="Mở menu" aria-expanded="false">☰</button>
+    </nav>
+    <form class="search" id="searchForm" novalidate>
+      <label class="sr-only" for="keyword">Từ khóa cần tìm</label>
+      <input id="keyword" name="keyword" type="search" placeholder="Nhập từ khóa cần tìm">
+      <button type="submit">TÌM KIẾM</button>
+    </form>
+  </header>
+
+  <main>
+    <a class="banner-link" href="#tin-tuc" aria-label="Xem tin bóng đá">
+      <img class="banner" src="image/banner.jpg.png" alt="Game Champions Game Football 2019">
+    </a>
+
+    <section class="news-list" id="tin-tuc" aria-label="Tin tức bóng đá">
+      <article class="news-row" id="lich-thi-dau">
+        <div class="news-copy">
+          <h2><a href="#tin-colombia">Kèo "thơm" Colombia vs Nhật Bản: Át vía châu Á</a></h2>
+          <p>Trong quá khứ, Colombia luôn áp đảo khi đối đầu với Nhật Bản. Đã 3 lần hai đội gặp nhau, và đại diện Nam Mỹ có 2 chiến thắng, ghi 5 bàn. Trong lần gần nhất đối mặt, Colombia đã hạ gục Nhật Bản với tỷ số đậm, ở World Cup 2014.</p>
+        </div>
+        <a class="news-image" href="#tin-colombia" aria-label="Đọc tin Colombia vs Nhật Bản"><img src="image/img1.jpg" alt="Các cầu thủ ăn mừng bàn thắng"></a>
+      </article>
+
+      <article class="news-row reverse" id="ket-qua">
+        <a class="news-image" href="#ket-qua-world-cup" aria-label="Xem kết quả World Cup"><img src="image/img2.jpg" alt="Sơ đồ kết quả vòng knock-out World Cup 2018"></a>
+        <div class="news-copy">
+          <h2><a href="#ket-qua-world-cup">Kèo "thơm" Colombia vs Nhật Bản: Át vía châu Á</a></h2>
+          <p>Trong quá khứ, Colombia luôn áp đảo khi đối đầu với Nhật Bản. Đã 3 lần hai đội gặp nhau, và đại diện Nam Mỹ có 2 chiến thắng, ghi 5 bàn. Trong lần gần nhất đối mặt, Colombia đã hạ gục Nhật Bản với tỷ số đậm, ở World Cup 2014.</p>
+        </div>
+      </article>
+
+      <article class="news-row" id="live">
+        <div class="news-copy">
+          <h2><a href="#tin-world-cup">Kèo "thơm" Colombia vs Nhật Bản: Át vía châu Á</a></h2>
+          <p>Trong quá khứ, Colombia luôn áp đảo khi đối đầu với Nhật Bản. Đã 3 lần hai đội gặp nhau, và đại diện Nam Mỹ có 2 chiến thắng, ghi 5 bàn. Trong lần gần nhất đối mặt, Colombia đã hạ gục Nhật Bản với tỷ số đậm, ở World Cup 2014.</p>
+        </div>
+        <a class="news-image" href="#tin-world-cup" aria-label="Đọc thêm tin World Cup"><img src="image/img1.jpg" alt="Các cầu thủ ăn mừng bàn thắng"></a>
+      </article>
+    </section>
+  </main>
+
+  <footer id="binh-luan"><a href="#trang-chu">TÊN SINH VIÊN</a></footer>
+  <div class="notice" id="notice" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
